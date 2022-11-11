@@ -1,0 +1,103 @@
+/* Common nav Styles */
+.navigation-wrapper {
+    height: 70px;
+    width: auto;
+    background-color: #000000;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+/* Left Column Styles */
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.navigation-wrapper > .left-column > .icon {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-wrapper > .left-column > .icon img {
+    width: 180px;
+    height: 100%;
+}
+
+/* Center Column Styles */
+.navigation-wrapper > .center-column {
+    padding: 10px 40px 10px 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    width: 500px;
+}
+
+.navigation-wrapper > .center-column > .explore-title-wrapper {
+    font-size: 16px;
+    text-align: left;
+    color: #ECDA82;
+    font-weight: 700;
+}
+
+.navigation-wrapper > .center-column > .explore-options-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-wrapper > .center-column > .explore-options-wrapper > .explore-options {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+}
+
+.navigation-wrapper > .center-column > .explore-options-wrapper > .explore-options > .white {
+    color: white;
+    font-weight: 900;
+    font-size: 22px;
+    letter-spacing: -1px;
+}
+
+.navigation-wrapper > .center-column > .explore-options-wrapper > .explore-options > .gray {
+    opacity: 0.8;
+    font-size: 19px;
+}
+
+.navigation-wrapper > .center-column > .explore-options-wrapper > .explore-options > .gray i {
+font-size: 14px;
+margin-left: 5px;
+}
+
+/* Right Column Styles for Nav Bar*/
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-wrapper > .right-column > .box-wrapper {
+    font-size: 19px;
+    font-weight: 700;
+    color: white;
+    background-color: #34383E;
+    padding: 15px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.navigation-wrapper > .right-column > .box-wrapper i {
+    color: #4ACA77;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.navigation-wrapper > .right-column > .search-icon i {
+    font-size: 2em;
+    opacity: 0.5;
+    margin-left: 10px;
+}
+
+

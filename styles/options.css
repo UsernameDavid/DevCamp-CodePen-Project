@@ -1,0 +1,30 @@
+/*Common Options Styles*/
+.options-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    color: white;
+    background-color: rgb(58, 50, 50);
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+.options-section p > .lowercase {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.options-section p > .uppercase {
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: -1px;
+}
+
+.options-section > .option {
+    border: 0.01px ridge rgb(136, 136, 136);
+}
+
+.options-section > .option p {
+    height: 40px;
+    align-items: center;
+}

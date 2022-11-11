@@ -1,0 +1,12 @@
+/* Common Styles */
+body {
+    background-color: #0a0b0ee5;
+    overflow: overlay;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", sans-serif;
+}
+  

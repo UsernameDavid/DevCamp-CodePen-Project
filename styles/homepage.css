@@ -1,0 +1,93 @@
+/*Common Home Page Styles*/
+.features-section{
+    /*Tool used for gradient: https://cssgradient.io/ */
+    background: linear-gradient(140deg, #363942 10%, #0A0B0E 100%);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/*Left Column*/
+.features-section > .left-column {
+    padding-left: 60px;
+    padding-right: 90px;
+    font-size: 30px;
+}
+
+.features-section > .left-column > .explanation-wrapper > .explanation1 {
+    display: grid;
+    grid-template-rows: 1fr;
+    letter-spacing: 1px;
+    font-size: 35px;
+}
+
+.features-section > .left-column > .explanation-wrapper > .explanation1 p > .gray {
+    opacity: 0.8;
+    font-weight: 300;
+}
+
+.features-section > .left-column > .explanation-wrapper > .explanation1 p > .white {
+    color: white;
+    font-weight: 700;
+}
+
+.features-section > .left-column > .explanation-wrapper > .explanation2 {
+    font-weight: 300;
+    opacity: 0.5;
+    font-size: 30px;
+}
+
+.features-section > .left-column > .buttons {
+    display: flex;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.features-section > .left-column > .buttons > .signup-btn-wrapper button {
+    margin-right: 20px;
+    padding: 15px;
+    color: black;
+    background-color: #38dd72;
+    border: 1px solid #38dd72;
+    border-radius: 4px;
+    font-family: "Lato", sans-serif;
+    font-size: 0.8em;
+}
+
+.features-section > .left-column > .buttons > .learnmore-btn-wrapper button {
+    padding: 15px;
+    color: white;
+    background-color: black;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-family: "Lato", sans-serif;
+    font-size: 0.8em;
+}
+
+/*Right Column*/
+.features-section > .right-column {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+}
+
+.features-section > .right-column p {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.features-section > .right-column p > .blue {
+    color: #69C2DA; 
+}
+
+.features-section > .right-column img {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    box-shadow: -10px 10px 31px 0px rgba(0,0,0,0.75);
+    margin-top: -15px;
+    padding-bottom: 20px;
+}
